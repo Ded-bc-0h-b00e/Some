@@ -198,7 +198,6 @@
 .card_image {
   display: flex;
   background-size: 100%;
-  background-size: cover;
   justify-content: space-between;
   width: 334px;
   height: 563px;
