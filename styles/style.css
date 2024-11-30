@@ -52,6 +52,7 @@
 }
 .header_address {
   line-height: 24px;
+  font-size: 18px;
   font-style: inherit;
   justify-self: end;
   padding-right: 37px;
@@ -64,6 +65,8 @@
 }
 
 /* главная секция */
+
+/*cover*/
 
 .cover {
   display: grid;
@@ -255,4 +258,108 @@
   font-weight: normal;
   font-family: "Raleway", sans-serif;
 }
+/* aboun */
+.about {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  margin: 180px 24px 0 24px;
+  height: 595px;
+  width: 1052px;
+}
+.about__column {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  border-radius:50% ;
+  margin-left:47px ;
+}
+.about_text_column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 25px;
+  
+}
+.about__title {
+  margin-top: 100px;
+  display: block;
+  position: relative;
+  margin-left: 118px;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+}
+.about__text {
+  display: flex;
+  position: relative;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;;
+  text-align: start;
+  margin-left: 120px;
+}
+.about_text-first {
+  margin-top: 77px;
+}
+.about__logo-image {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 114px;
+  position: relative;
+}
+.footer__social-icon {
+  height: 48px;
+  width: 48px;
+}
 
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  align-items: center;
+  margin: 150px 50px 55px 50px;
+  height: 98px;
+  width: 1000px;
+}
+.footer_menu-list-item {
+  text-align: center;
+  list-style: none;
+}
+.footer_menu-list {
+  margin-bottom: 40px;
+}
+.footer__social-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin-bottom: 50px;
+}
+.footer__social-list-item {
+  list-style: none;
+  
+}
+.footer_menu-link-No-line {
+  text-decoration: none;
+}
+.footer_menu-link {
+  font-size:18px ;
+  font-weight: normal;
+  font-family: "Raleway", sans-serif;
+  text-underline-offset: 4px;
+}
+.footer_address{
+  margin-bottom: 8px;
+}
