@@ -32,7 +32,6 @@
 .header__links-list-item_no-bullet {
   list-style-type: none;
   display: flex;
-  display: list-item;
 }
 .header__menu-link_active {
   text-decoration: none;
@@ -200,7 +199,6 @@
   display: flex;
   background-size: 100%;
   background-size: cover;
-  background-position: center;
   justify-content: space-between;
   width: 334px;
   height: 563px;
@@ -233,8 +231,6 @@
   text-decoration: none;
   display: block;
   height: 100%;
-}
-.card-link {
   align-items: end;
 }
 .card_text-film {
@@ -246,7 +242,7 @@
 .card_text-pic {
   padding: 99px 40px 0 40px;
 }
-.lots__look-more-link{
+.lots__look-more-link {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -301,7 +297,7 @@
   position: relative;
   font-size: 20px;
   font-weight: normal;
-  font-family: "Raleway", sans-serif;;
+  font-family: "Raleway", sans-serif;
   text-align: start;
   margin-left: 120px;
 }
@@ -360,6 +356,6 @@
   font-family: "Raleway", sans-serif;
   text-underline-offset: 4px;
 }
-.footer_address{
+.footer_address {
   margin-bottom: 8px;
 }
